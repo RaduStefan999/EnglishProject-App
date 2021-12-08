@@ -7,7 +7,7 @@ import Questions from "../questions.json";
 export default function quizScreen({ route, navigation }) {
   const { index } = route.params;
   return (
-    <ScrollView>
+    <ScrollView style={styles.main}>
       <View style={{ justifyContent: "space-between", flexDirection: "row" }}>
         <Text style={styles.questionNo}>
           {index + 1}/{Questions.questions.length}
@@ -27,6 +27,10 @@ export default function quizScreen({ route, navigation }) {
   );
 }
 const styles = StyleSheet.create({
+  main: {
+    flex: 1,
+    backgroundColor: "#FF9C4B57",
+  },
   questionNo: {
     color: "red",
     fontSize: 25,

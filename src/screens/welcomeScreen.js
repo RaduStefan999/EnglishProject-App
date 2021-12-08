@@ -18,7 +18,7 @@ const welcomeScreen = ({ navigation }) => {
   return (
     <ScrollView contentContainerStyle={styles.welcomeScreen}>
       <Image style={styles.logo} source={require("../../assets/logo.png")} />
-      <Text style={styles.welcomeText}>Welcome To Quiz App</Text>
+      <Text style={styles.welcomeText}>Welcome To English By Quiz</Text>
       <Text style={styles.welcomeText}>Enter your name to Proceed...</Text>
       <TextInput
         style={styles.inputBox}
@@ -28,7 +28,7 @@ const welcomeScreen = ({ navigation }) => {
         placeholderTextColor="black"
       />
       <Button
-        icon={<Icon name="arrow-circle-right" size={70} color="blue" />}
+        icon={<Icon name="arrow-circle-right" size={70} color="orange" />}
         type="clear"
         onPress={() => {
           if (Name === "") {
@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "#FF9C4B57",
   },
   logo: {
     height: 200,
@@ -69,7 +70,7 @@ const styles = StyleSheet.create({
     height: 40,
     margin: 12,
     borderBottomWidth: 3,
-    borderBottomColor: "#3700B3",
+    borderBottomColor: "#FF9C4BFF",
     marginTop: 60,
     color: "black",
   },

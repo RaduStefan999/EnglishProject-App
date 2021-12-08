@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import welcomeScreen from "./src/screens/welcomeScreen";
 import quizScreen from "./src/screens/quizScreen";
+import aboutScreen from "./src/screens/aboutScreen";
 import { StateProvider } from "./src/stateProvider";
 import reducer, { initialState } from "./src/reducer";
 import congratScreen from "./src/screens/congratScreen";
@@ -26,6 +27,11 @@ const App = () => {
           <Stack.Screen
             name="CongratsScreen"
             component={congratScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="AboutScreen"
+            component={aboutScreen}
             options={{ headerShown: false }}
           />
         </Stack.Navigator>

@@ -1,104 +1,99 @@
 {
-    "questions": [
-        {
-            "question": "Everything in React is a __________",
-            "answers": [
-                "Module",
-                "Component",
-                "Hooks",
-                "Template"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "question": "What of the following is used in React.js to increase performance?",
-            "answers": [
-                "Original DOM",
-                "Virtual DOM",
-                "Both A & B",
-                "None Of The Above"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "question": "Which of the following acts as the input of a class-based component?",
-            "answers": [
-                "Class",
-                "Factory",
-                "Render",
-                "Props"
-            ],
-            "correctIndex": 3
-        },
-        {
-            "question": "What is ReactJs?",
-            "answers": [
-                "Server side framework ",
-                "A Library for building interaction interfaces ",
-                "Client Side Framework ",
-                "None of the Above"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "question": "React is ............ Javascript library ",
-            "answers": [
-                "Module based",
-                "Component based",
-                "System based",
-                "All are correct"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "question": "A valid react component can return ...... number of elements. ",
-            "answers": [
-                "1",
-                "2",
-                "3",
-                "None of the Above"
-            ],
-            "correctIndex": 0
-        },
-        {
-            "question": "Which of the following API is a MUST for every ReactJS component? ",
-            "answers": [
-                "getInitialState",
-                "render",
-                "renderComponent",
-                "None"
-            ],
-            "correctIndex": 2
-        },
-        {
-            "question": "What is the default port for webpack dev server? ",
-            "answers": [
-                "3000",
-                "8080",
-                "3306",
-                "8809"
-            ],
-            "correctIndex": 1
-        },
-        {
-            "question": "React Js is developed by ",
-            "answers": [
-                "Google",
-                "Microsoft",
-                "Facebook",
-                "None of the Above"
-            ],
-            "correctIndex": 2
-        },
-        {
-            "question": "Which of the following is a correct definition of state in react? ",
-            "answers": [
-                "A persistent storage ",
-                "An internal data store (object) of component",
-                "Both",
-                "None"
-            ],
-            "correctIndex": 1
-        }
-    ]
+  "questions": [
+    {
+      "question": "My computer __________ every time I open Visual Studio.",
+      "answers": ["Dies", "Crashes", "Blocks", "Shuts off"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Organisations are __________ turning to algorithms to automate or support decision-making.",
+      "answers": ["Progressively", "Growingly", "Increasingly", "Increasing"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Google has an Application programming interface (API) that __________ users to get information about maps.",
+      "answers": ["Authorizes", "Allows", "Gives access to", "Facilitates"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Data structure provides a way of organizing, managing, and storing data __________.",
+      "answers": ["Efficiently", "Methodically", "Coherently", "Dexterously"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is the error I got \"Segmentation Fault (Core __________)\" in the C language?",
+      "answers": ["Erroneous", "Dumped", "Thrown away", "Dump"],
+      "correctIndex": 1
+    },
+    {
+      "question": "The time complexity is the amount of time __________ by an algorithm to run, as a function of the length of the input.",
+      "answers": ["Forced", "Consumed", "Laid hold of", "Taken"],
+      "correctIndex": 3
+    },
+    {
+      "question": "A client-server system is a system in which some computers (the clients), __________ services provided by other computers, the servers.",
+      "answers": ["Demand", "Ask for", "Request", "Call"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from __________ attacks.",
+      "answers": ["Malicious", "Viral", "Risky", "Bad"],
+      "correctIndex": 0
+    },
+    {
+      "question": "If you get back late, I __________  angry.",
+      "answers": ["will have been", "will be", "would be", "was"],
+      "correctIndex": 1
+    },
+    {
+      "question": "I have __________ three essays this week.",
+      "answers": ["had written", "wrote", "written", "will write"],
+      "correctIndex": 2
+    },
+    {
+      "question": "If I _________  you, I would get a new job.",
+      "answers": ["were", "was", "will be", "have been"],
+      "correctIndex": 0
+    },
+    {
+      "question": "We __________ too much chocolate.",
+      "answers": ["ate", "have eaten", "will eat", "had eaten"],
+      "correctIndex": 1
+    },
+    {
+      "question": "I __________  my football team would win.",
+      "answers": ["will think", "have thought", "had thought", "thought"],
+      "correctIndex": 3
+    },
+    {
+      "question": "We __________  to the cinema tonight.",
+      "answers": ["hadn’t gone", "won’t go", "haven’t gone", "aren't going"],
+      "correctIndex": 3
+    },
+    {
+      "question": "If we had arrived earlier, we __________ John.",
+      "answers": ["had seen", "saw", "would have seen", "have seen"],
+      "correctIndex": 2
+    },
+    {
+      "question": "I ___________ there long when she quit.",
+      "answers": [
+        "wasn’t working",
+        "hadn't been working",
+        "didn’t work",
+        "haven’t work"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "If he ______________ a musician, he would have recorded a CD.",
+      "answers": ["have become", "had become", "will become", "became"],
+      "correctIndex": 1
+    },
+    {
+      "question": "He was working in the garden when he ___________ the money.",
+      "answers": ["had found", "have found", "found", "will find"],
+      "correctIndex": 2
+    }
+  ]
 }
